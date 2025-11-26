@@ -1,14 +1,12 @@
 import os
 from datetime import datetime
 from collections import namedtuple
-from json import loads
 import pytest
 from swagger_coverage_py.reporter import CoverageReporter
 
 from helpers.account_helper import AccountHelper
-from packages.notifier.bot import send_file
-from restclient.configuration import Configuration as MailhogConfiguration
-from restclient.configuration import Configuration as DmApiConfiguration
+from packages.restclient.configuration import Configuration as MailhogConfiguration
+from packages.restclient.configuration import Configuration as DmApiConfiguration
 from services.dm_api_account import DMApiAccount
 from services.api_mailhog import MailHogApi
 import structlog

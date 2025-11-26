@@ -3,7 +3,7 @@ service:
   mailhog: 'http://5.63.153.31:5025'
 
 user:
-  login: 'kristinochka_07_11_2025_23_38_42'
+  login: 'kristinochka_26_11_2025_09_21_13_502'
   password: "123456789"
 
 telegram:
